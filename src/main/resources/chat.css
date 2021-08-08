@@ -1,0 +1,11 @@
+div.chatBox {
+    /*background-image: url("/image");*/
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p.chatBox {
+    background-color: white;
+    opacity: 0.85;
+}

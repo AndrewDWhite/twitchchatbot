@@ -1,0 +1,5 @@
+botName: "JavaChatBot"
+twitchIRCServer: "irc.chat.twitch.tv"
+twitchIRCServerPort: 6667
+OAuthPassword: "oauth:key"
+channelName: "channelname"

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><title>interface</title></head>
+<link rel="stylesheet" href="/ui/Player.css" type="text/css"/>
+
+<body>
+<div id="everything">
+
+    <!-- the youtube api does really abusive things to the html. these id names don't make sense when you read the html source,
+     but they do make sense after it gets distorted bizzarely.-->
+    <div id="playerstuff">
+        <div id="players">
+            <div id="youtubeHolder">
+                <div id="youtubePlayer" />
+            </div>
+        </div>
+        <br>
+
+    </div>
+
+
+    <div class="title">Currently Playing:<div id="title"></div></div>
+    <div  class="requester">Requested By:<div id="requester"></div></div>
+
+    <div id="buttons">
+        <button id="playPauseButton" onclick="playpause()">Pause</button>
+        <button id="nextButton" onclick="nextSong(true)">Next</button>
+        <button id="resetButton" onclick="reset()">Reset</button>
+
+    </div>
+
+</div>
+</body>
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script src='/ui/Player.js'></script>
+</html>

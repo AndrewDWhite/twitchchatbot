@@ -1,0 +1,13 @@
+baseUrl: "https://www.googleapis.com/youtube/v3/"
+
+songListInfoUrl: "playlistItems?part=contentDetails&maxResults=50&playlistId="
+# + listPathId + "&key=" + conf.getYoutubeAccessToken()"
+infoUrlForId: "videos?part=contentDetails,snippet,status&id="
+# + youtubeId + "&key=" + conf.getYoutubeAccessToken()
+searchUrl: "search?videoEmbeddable=true&part=id&type=video&maxResults=5&q="
+# + URLEncoder.encode(q, "UTF-8") + "&regionCode=" + conf.getUserCountryCode() + "&key=" + conf.getYoutubeAccessToken()
+
+apiKey: "apiKeyHere"
+userCountryCode: "US"
+idPattern: "[a-zA-Z0-9_-]{11}"
+playlistPattern: ".*playlist[?]list[=].*"
